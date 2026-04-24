@@ -1,0 +1,23 @@
+{
+  "name": "bot-biblico-whatsapp",
+  "version": "1.0.0",
+  "description": "Bot de WhatsApp con IA - Biblia Reina Valera 1960 | Groq + Green API",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js",
+    "setup": "node setup-webhook.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["whatsapp", "bible", "bot", "groq", "green-api", "reina-valera"],
+  "author": "Bot Bíblico ✝️"
+}
